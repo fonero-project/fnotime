@@ -1,0 +1,9 @@
+cmd/fnotime/fnotime
+cmd/fnotime_timestamp/fnotime_timestamp
+fnotimed/fnotimed
+vendor/
+*~
+*.pyc
+*.sw?
+*.orig
+*.diff
