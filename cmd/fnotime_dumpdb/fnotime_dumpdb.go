@@ -42,7 +42,7 @@ func _main() error {
 	if root == "" {
 		root = filepath.Join(defaultHomeDir, "data")
 		if *testnet {
-			root = filepath.Join(root, chaincfg.TestNet3Params.Name)
+			root = filepath.Join(root, chaincfg.TestNetParams.Name)
 		} else {
 			root = filepath.Join(root, chaincfg.MainNetParams.Name)
 		}

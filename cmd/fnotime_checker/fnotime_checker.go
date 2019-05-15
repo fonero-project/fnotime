@@ -54,9 +54,9 @@ func _main() error {
 	// Handle fnotime host
 	if *fnodataHost == "" {
 		if *testnet {
-			*fnodataHost = "https://testnet.fnodata.org/api/tx/"
+			*fnodataHost = "https://testnet.fonero.org/api/tx/"
 		} else {
-			*fnodataHost = "https://explorer.fnodata.org/api/tx/"
+			*fnodataHost = "https://explorer.fonero.org/api/tx/"
 		}
 	} else {
 		if !strings.HasSuffix(*fnodataHost, "/") {
