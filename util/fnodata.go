@@ -9,7 +9,7 @@ import (
 	"net/http"
 
 	"github.com/fonero-project/fnod/txscript"
-	"github.com/fonero-project/fnodata/v4/api/types"
+	"github.com/fonero-project/fnodata/api/types"
 )
 
 // VerifyAnchor verifies proof of existence of the supplied merkle root on the

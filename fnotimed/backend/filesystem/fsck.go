@@ -18,7 +18,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/fonero-project/fnod/txscript"
-	"github.com/fonero-project/fnodata/v4/api/types"
+	"github.com/fonero-project/fnodata/api/types"
 	"github.com/fonero-project/fnotime/fnotimed/backend"
 	"github.com/fonero-project/fnotime/merkle"
 	"github.com/syndtr/goleveldb/leveldb"
